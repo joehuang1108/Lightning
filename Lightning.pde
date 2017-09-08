@@ -1,4 +1,4 @@
-int x1 = (50; 100;)
+int x1 = 50;
 int y1 = 0;
 int x2 = 50;
 int y2 = 0;
@@ -11,7 +11,7 @@ void setup()
 void draw()
 {
 	
-  	lighting();
+  	lightning();
   
 }
 void mousePressed()
@@ -27,6 +27,6 @@ void lightning()
   	line(x1,y1,x2,y2);
   	x1 = x2;
   	y1 = y2;
-  	if 
+ 
 }
 
