@@ -31,6 +31,7 @@ void lightning()
 {
 	x2 = x1 + (int)(Math.random()*31)-15;
   	y2 = y1 + (int)(Math.random()*41);
+  	strokeWeight(4);
   	stroke(160,101,255);
   	line(x1,y1,x2,y2);
   	x1 = x2;
