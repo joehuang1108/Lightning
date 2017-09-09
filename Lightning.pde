@@ -1,4 +1,4 @@
-int x1 = (int)(Math.random()*600);
+int x1 = (int)(Math.random()*751);
 int y1 = 0;
 int x2 = 300;
 int y2 = 0;
@@ -6,13 +6,13 @@ void setup()
 {
   	size(751,416);
   	frameRate(10);
-  	PImage img;
+  	/*PImage img;
 	img = loadImage("BOLLT.jpg");
 	image(img,0,0);
 	tint(255,5);
 	image(img,50,0);
 	background(img);
-  	
+  	*/
 
 }
 void draw()
@@ -23,13 +23,16 @@ void draw()
 }
 void mousePressed()
 {
-	PImage img;
+	/*PImage img;
 	img = loadImage("BOLLT.jpg");
 	image(img,0,0);
 	tint(255,5);
 	image(img,50,0);
 	background(img);
-  	x1 = (int)(Math.random()*600);
+	*/
+	fill(0,0,0,15);
+	rect(0,0,751,416);
+  	x1 = (int)(Math.random()*751);
   	x2 = 300;
   	y1 = 0;
   	y2 = 0;
