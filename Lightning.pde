@@ -30,7 +30,7 @@ void mousePressed()
 	image(img,50,0);
 	background(img);
 	*/
-	fill(0,0,0,5);
+	fill(0,0,0,20);
 	rect(0,0,751,416);
   	x1 = (int)(Math.random()*751);
   	x2 = 300;
