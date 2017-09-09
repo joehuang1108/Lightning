@@ -18,7 +18,7 @@ void setup()
 void draw()
 {
 	
-  	lightning3();
+  	lightning();
   
 }
 void mousePressed()
