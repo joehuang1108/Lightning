@@ -16,21 +16,21 @@ void setup()
 }
 void draw()
 {
-  //fill(0, 0, 0, 20);
-  //rect(0, 0, 751, 416);
-  lightning();
+  fill(0, 0, 0, 20);
+  rect(0, 0, 751, 416);
+  lightning3();
 }
 void mousePressed()
 {
-  	PImage img;
-   	img = loadImage("BOLLT.jpg");
-   	image(img,0,0);
-   	tint(255,5);
-   	image(img,50,0);
-   	background(img);
+  	//PImage img;
+   	//img = loadImage("BOLLT.jpg");
+   	//image(img,0,0);
+   	//tint(255,5);
+   	//image(img,50,0);
+   	//background(img);
    	
-  //fill(0, 0, 0, 20);
-  //rect(0, 0, 751, 416);
+  fill(0, 0, 0, 20);
+  rect(0, 0, 751, 416);
   x1 = (int)(Math.random()*751);
   x2 = 300;
   y1 = 0;
